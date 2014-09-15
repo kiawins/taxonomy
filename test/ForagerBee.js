@@ -30,6 +30,10 @@ describe('ForagerBee class functionality', function() {
     expect(foragerBee.eat).to.be.a('function');
   });
 
+  it('should have an `eat` method that is inhereted from grub', function() {
+    expect(bee.eat).to.be.a('function');
+  });
+
   /*  New methods and properties  */
 
   it('should have a `canFly` property that is set `true`', function() {
